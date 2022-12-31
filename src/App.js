@@ -6,6 +6,9 @@ import ColorSchemesExample from "./components/navbar_header";
 import OurStory from "./components/our_story";
 import DishCarousel from "./components/dish_carousel";
 import GalleryCard from "./components/gallary";
+import FollowUS from "./components/follow_us";
+import Map from "./components/map";
+import Footer from "./components/footer";
 function App() {
   return (
     <div className="App">
@@ -14,6 +17,9 @@ function App() {
       <OurStory />
       <DishCarousel />
       <GalleryCard />
+      <FollowUS />
+      <Map />
+      <Footer />
       </header> 
     </div>
   );

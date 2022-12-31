@@ -9,19 +9,60 @@ import Row from "react-bootstrap/Row";
 function GalleryCard() {
   return (
     <>
-      <div style={{ marginTop: "8rem" }}></div>
-      <Row xs={1} md={4} className="g-3">
-        {Array.from({ length: 8 }).map((_, idx) => (
+    <div className="container">
+      <div style={{ marginTop: "8rem", border:"solid 2px green" }}></div>
+      <Row xs={1} md={3} className="g-3">
+ 
           <Col>
-            <Card>
+            <Card>  
               <Card.Img variant="top" src={Story1} />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
-              </Card.Body>
             </Card>
           </Col>
-        ))}
+ 
+          <Col>
+            <Card>  
+              <Card.Img variant="top" src={Story2} />
+            </Card>
+          </Col>
+
+           
+          <Col>
+            <Card>  
+              <Card.Img variant="top" src={Story3} />
+            </Card>
+          </Col>
+           
+          <Col>
+            <Card>  
+              <Card.Img variant="top" src={Story1} />
+            </Card>
+          </Col>
+                     
+          <Col>
+            <Card>  
+              <Card.Img variant="top" src={Story1} />
+            </Card>
+          </Col>
+                     
+          <Col>
+            <Card>  
+              <Card.Img variant="top" src={Story2} />
+            </Card>
+          </Col>
+                     
+          <Col>
+            <Card>  
+              <Card.Img variant="top" src={Story3} />
+            </Card>
+          </Col>
+                     
+          <Col>
+            <Card>  
+              <Card.Img variant="top" src={Story1} />
+            </Card>
+          </Col>
       </Row>
+      </div>  
     </>
   );
 }
