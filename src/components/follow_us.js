@@ -7,7 +7,7 @@ import { Col, Row } from "react-bootstrap";
 
 function FollowUS() {
   return (
-    <div className="mt-5 container">
+    <div className="mt-5 mb-5 container">
       <Row>
         <Col>
           <Card>

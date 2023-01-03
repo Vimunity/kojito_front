@@ -1,25 +1,25 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import './navbar.css'
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import "./navbar.css";
+import VideoBanner from "./video";
 function ColorSchemesExample() {
   return (
-    <><div className="video">
-    <div style={{paddingTop:"1rem"}}></div>
-      <Navbar className='navheader'>
+    <>
+      <VideoBanner />   
+      <Navbar className="navheader">
         <Container>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Our Story</Nav.Link>
-            <Nav.Link href="#pricing">Menu</Nav.Link>
-            <Nav.Link href="#features">Gallery</Nav.Link>
-            <Nav.Link href="#pricing">Follow us</Nav.Link>            
-            <Nav.Link href="#features">Map</Nav.Link> 
-            <Nav.Link href="#features">Content us</Nav.Link> 
+            <Nav.Link href="#ourstory">Our Story</Nav.Link>
+            <Nav.Link href="#menu">Menu</Nav.Link>
+            <Nav.Link href="#gallery">Gallery</Nav.Link>
+            <Nav.Link href="#followus">Follow us</Nav.Link>
+            <Nav.Link href="#map">Map</Nav.Link>
+            <Nav.Link href="#contentus">Content us</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
-      </div>
     </>
   );
 }

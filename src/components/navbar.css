@@ -12,6 +12,7 @@
   border: 0.5px solid #c5c5c5;
   color: rgb(255, 255, 255);
   margin: auto;
+  margin-top: 1rem;
 }
 
 .nav-link {
@@ -25,31 +26,35 @@
     border-color 0.15s ease-in-out;
 }
 
-.video {
-  height: 500px;
-  background-image: url("../assets/video_banner.jpg");
-  width: 100%;
-  float: left;
-  top: 0;
+.videoBanner {
+  position: absolute;
+  z-index: 0; 
+  background-size: 100% 100%;
+  top: 0px;
+  left: 0px; /* fixed to left. Replace it by right if you want.*/
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
 }
 
 .ourStory {
   height: auto;
-  background-color: black; 
-  width: 100%; 
+  background-color: black;
+  width: 100%;
 }
 
 .Story {
-  height: 500px;
-  width: 80%;   
+  height: 800px;
+  width: 80%;
   display: flex;
-  align-items: center;  
+  align-items: center;
   margin: auto;
-  float: center; 
+  float: center;
 }
 
-.Carousel{
+.Carousel {
   height: auto;
-  background-color: black; 
-  width: 100%; 
+  background-color: black;
+  width: 100%;
 }

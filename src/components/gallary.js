@@ -9,9 +9,9 @@ import Row from "react-bootstrap/Row";
 function GalleryCard() {
   return (
     <>
-    <div className="container">
+    <div className="container mt-5">
       <div style={{ marginTop: "8rem", border:"solid 2px green" }}></div>
-      <Row xs={1} md={3} className="g-3">
+      <Row xs={1} md={4} className="g-3">
  
           <Col>
             <Card>  
